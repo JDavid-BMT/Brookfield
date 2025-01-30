@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Brookfield</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div id="scene">
+    <div id="left-zone">
+      <ul class="list">
+        <li class="item">
+          <input type="radio" id="radio_pictures" name="basic_carousel" value="pictures" checked="checked"/>
+          <label class="label_pictures" for="radio_pictures">Photo Gallery</label>
+          <div class="content content_pictures">
+            <h1>Photo Gallery</h1>
+            <section class="gallery" id="gallery-pictures"></section>
+          </div>
+        </li>
+        <li class="item">
+          <input type="radio" id="radio_floor-plan" name="basic_carousel" value="floor-plan"/>
+          <label class="label_floor-plan" for="radio_floor-plan">Floor Plan</label>
+          <div class="content content_floor-plan">
+            <h1>Floor Plan</h1>
+            <section class="gallery" id="gallery-floorplan"></section>
+          </div>
+        </li>
+        <li class="item">
+          <input type="radio" id="radio_drone" name="basic_carousel" value="drone"/>
+          <label class="label_drone" for="radio_drone">Drone Footage</label>
+          <div class="content content_drone">
+            <h1>Drone Footage</h1>
+            <section class="drone-footage" id="gallery-drone"></section>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="middle-border"></div>
+    <div id="right-zone"></div>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
